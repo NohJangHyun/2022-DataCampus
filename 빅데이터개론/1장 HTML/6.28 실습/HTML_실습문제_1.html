@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML_실습문제_1</title>
+</head>
+<body>
+    <label>고객명  :  </label>
+    <input type="text" name="name">
+    <br><br>
+    
+    <label>전화번호  :  </label>
+    <input type="tel" name="phone">
+    <br><br>
+    
+    <label>E-mail  :  </label>
+    <input type="email" name="email">
+    <br><br>
+
+    <label>피자 선택  :  </label>
+    <select name="pizza">
+        <option value="default">피자를 선택해주세요</option>
+        <option value="1" >콤비네이션 피자</option>
+        <option value="2" >불고기 피자</option>
+        <option value="3" >빅고구마 피자</option>
+        <option value="4" >빅포테이토 피자</option>
+    </select>
+
+    <fieldset>
+        <legend>피자 사이즈</legend>
+        <input type="radio" name="size" value="S">Small<br><br>
+        <input type="radio" name="size" value="M">Medium<br><br>
+        <input type="radio" name="size" value="L">Large<br><br>
+        <input type="radio" name="size" value="XL">Extra Large<br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>토핑 선택</legend>
+        <input type="checkbox" name="topping" value="bacon">베이컨<br><br>
+        <input type="checkbox" name="topping" value="cheese">치즈<br><br>
+        <input type="checkbox" name="topping" value="onion">양파<br><br>
+        <input type="checkbox" name="topping" value="mushroom">버섯<br><br>
+    </fieldset>
+    
+    <label>희망배송시간  :  </label>
+    <input type="time" name="time">
+    <br><br>
+    
+    <label>배송시 요청사항  :  </label>
+    <textarea name="request" id="request" rows="4" cols="20"></textarea>
+    <br><br>
+
+    <button>주문하기</button>
+</body>
+</html>
+
+
