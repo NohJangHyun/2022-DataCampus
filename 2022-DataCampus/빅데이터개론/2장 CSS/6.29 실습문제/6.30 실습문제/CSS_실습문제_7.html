@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS_실습문제_7</title>
+    <style>
+        nav{
+			text-align: center;
+		}
+		nav > section {
+			background-color: lightgray;
+			display: inline-block;
+			text-align: center;
+			border-radius: 10px;
+			padding: 0 20px;
+		}
+		nav > section > div {
+			display: inline-block;
+		}
+		nav > section > div > a {
+			padding: 20px;
+			display: block;
+			font-weight: bold;
+		}
+		nav > section > div:hover > a {
+			background-color: black;
+			color: white;
+		}
+		#container {
+			width: 650px;
+			margin: 0 auto;
+			padding: 5px;
+		}
+		#check {
+			width: 625px;
+			border: 2px dashed red;
+		}
+		img {
+			border-radius: 10px;
+		}
+		h1 {
+			color: white;
+			font-size: 16px;
+			background-color: black;
+			margin: 0px;
+			padding: 10px;
+		}
+		h2 {
+			color: red;
+			font-size: 24px;
+			text-align: center;
+		}
+		p {
+			size: 19px;
+			line-height: 32px;
+			font-weight: bold;
+			text-align: center;
+		}
+		.accent {
+			color: blue;
+		}
+		.smalltext {
+			font-size: 11px;
+		}
+    </style>
+</head>
+<body>
+	<nav>
+		<section>
+			<div>
+				<a href="#">홈</a>
+			</div>
+			<div>
+				<a href="#">상품 목록</a>
+			</div>
+			<div>
+				<a href="#">주문 내역</a>
+			</div>
+			<div>
+				<a href="#">내 정보</a>
+			</div>
+		</section>
+	</nav>
+	
+	<div id="container">
+		<img src="apple.png" alt="사과">		
+		<div id="check">
+			<h1> 확인하세요 </h1>
+			<h2> 주문 및 배송 </h2>
+			<p>
+				<span class="accent"> 오후 2시 이전 </span> 주문건은 당일 발송합니다<br>
+				2시 이후 주문건은 다음날 발송합니다(주말 제외)
+			</p>
+			<hr> <!-- 구분선 -->
+			<h2> 교환 및 환불 </h2>
+			<p>
+				불만족시 <span class="accent"> 100% 환불 </span> 해 드립니다<br>
+				고객센터로 전화주세요
+			</p>
+			<hr>
+			<h2> 고객센터 </h2>
+			<p> 0000-0000 <br>
+			<span class="smalltext" > 상담시간 : 오전 9시 ~ 오후 6시 (토/일, 공휴일 휴무)</span></p>
+		</div>
+	</div>
+</body>
+</html>
+
+
