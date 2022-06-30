@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS_실습문제_3</title>
+    <style>
+        div{
+            width: 100px;
+            height: 35px;
+            text-align: center;
+            color: black;
+        }
+        #bro > div:first-child{background-color: red;}
+        #bro > div:last-child{background-color: blue;}
+        #bro > :nth-child(2){background-color: yellow;}
+        #bro > :nth-last-child(1){color: blue;}
+        #bro > :nth-last-child(2){background-color: yellowgreen;}
+    </style>
+</head>
+<body>
+    <div id="bro">
+        <div>첫째</div>
+        <div>둘째</div>
+        <div>셋째</div>
+        <div>넷째</div>
+        <span>강아지</span>
+    </div>
+</body>
+</html>
+
+
