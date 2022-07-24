@@ -1,0 +1,7 @@
+xpath는 가져오고자 하는 태그 경로 의미
+전체 경로(full xpath) 예시 => 학교/학년/반/번호/이름
+줄인 경로(xpath) 예시 => 학번으로 바로 부르기 – id(unique한 값, 속성 값)
+
+네이버에서 로그인 버튼 xpath 확인
+copy full xpath 경로 - /html/body/div[2]/div[3]/div[3]/div/div[2]/a
+copy xpath 경로 - //*[@id="account"]/a
