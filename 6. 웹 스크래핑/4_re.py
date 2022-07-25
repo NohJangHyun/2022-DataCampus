@@ -9,16 +9,16 @@ p = re.compile("ca.e")
 # $ (se$) : 문자열의 끝 > case, base 가능 but face는 X
 
 #정규식 기초 1
-#def print_match(m):
+# def print_match(m):
 #    if m:
 #        print("m.group(): ", m.group()) #일치하는 문자열 반환
 #    else:
 #        print("매칭되지 않음")
 
-#m = p.match("care")#패턴과 매치되는 경우, 변형 예제 : careless의 경우 주어진 문자열이 처음부터 일치하는지 확인하기 때문에 뒤에 다른 값이 있어도 일치한다고 판단하고 care 출력
-#m = p.match("good care") #패턴과 매치되지 않는 경우
-#print_match(m)
-#print(m.group()) #매치되면 정상 출력, 매치되지 않으면 에러 발생
+# m = p.match("care")#패턴과 매치되는 경우, 변형 예제 : careless의 경우 주어진 문자열이 처음부터 일치하는지 확인하기 때문에 뒤에 다른 값이 있어도 일치한다고 판단하고 care 출력
+# m = p.match("good care") #패턴과 매치되지 않는 경우
+# print_match(m)
+# print(m.group()) #매치되면 정상 출력, 매치되지 않으면 에러 발생
 
 
 #정규식 기초 2
